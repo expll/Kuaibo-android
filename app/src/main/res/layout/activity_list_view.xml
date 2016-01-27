@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListViewActivity" >
+
+    <com.wl.kbplayer.kuaibo.segmentcontrol.SegmentControl
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        segmentcontrol:horizonGap="8dip"
+        segmentcontrol:verticalGap="8dip"
+        segmentcontrol:direction="horizon"
+        segmentcontrol:cornerRadius="5dip"
+        segmentcontrol:colors="#cc5200"
+        segmentcontrol:texts="精选|日韩|欧美|成人卡通"
+        android:textSize="13sp" android:id="@+id/segment_control"
+        xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginBottom="44dp">
+        </ListView>
+
+        <ListView
+            android:id="@+id/lvHanri"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginBottom="44dp">
+        </ListView>
+
+        <ListView
+            android:id="@+id/lvOumei"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginBottom="44dp">
+        </ListView>
+
+        <ListView
+            android:id="@+id/lvKatong"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginBottom="44dp">
+        </ListView>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+    <com.wl.kbplayer.kuaibo.Tabbar.TabBar
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="-44dp"
+        android:background="#ed4d4d"
+        android:id="@+id/tbApplication"/>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wl.kbplayer.kuaibo.PaihangActivity">
+
+
+    <com.wl.kbplayer.kuaibo.segmentcontrol.SegmentControl
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        segmentcontrol:horizonGap="8dip"
+        segmentcontrol:verticalGap="8dip"
+        segmentcontrol:direction="horizon"
+        segmentcontrol:cornerRadius="5dip"
+        segmentcontrol:colors="#cc5200"
+        segmentcontrol:texts="日韩|欧美|成人卡通"
+        android:textSize="13sp" android:id="@+id/segment_control_paihang"
+        xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"/>
+
+
+
+</LinearLayout>

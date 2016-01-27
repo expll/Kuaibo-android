@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="show list"
+        android:background="#4c9157"
+        android:textColor="#ebebf1"
+        android:layout_margin="10px"
+        android:id="@+id/btShowList"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="show pull refresh"
+        android:background="#4c9157"
+        android:textColor="#ebebf1"
+        android:layout_margin="10px"
+        android:id="@+id/btShowPullRefress"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="request data"
+        android:background="#4c9157"
+        android:textColor="#ebebf1"
+        android:layout_margin="10px"
+        android:id="@+id/btRequestData"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="slide view"
+        android:background="#4c9157"
+        android:textColor="#ebebf1"
+        android:layout_margin="10px"
+        android:id="@+id/btSlideView"/>
+
+
+</LinearLayout>

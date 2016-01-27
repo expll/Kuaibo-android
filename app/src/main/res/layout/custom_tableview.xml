@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wl.kbplayer.kuaibo.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.wl.kbplayer.kuaibo.SlideShowView
+        android:id="@+id/slideshowView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:adjustViewBounds="true"
+        android:background="#ff44aacc"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="5dp"
+        app:layout_widthPercent="98%"/>
+
+    <ListView
+        android:id="@+id/lvCustomTableView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000"
+        android:layout_marginBottom="0dp">
+    </ListView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:background="#4c9157"
+        android:textColor="#ebebf1"
+        android:gravity="center"
+        android:text="VIP将加载更多"
+        android:layout_margin="10px"
+        android:id="@+id/cellButtom"/>
+
+</com.wl.kbplayer.kuaibo.PercentLinearLayout>

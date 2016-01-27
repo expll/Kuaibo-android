@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListViewActivity" >
+
+    <com.wl.kbplayer.kuaibo.segmentcontrol.SegmentControl
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        segmentcontrol:horizonGap="8dip"
+        segmentcontrol:verticalGap="8dip"
+        segmentcontrol:direction="horizon"
+        segmentcontrol:cornerRadius="5dip"
+        segmentcontrol:colors="#027bff"
+        segmentcontrol:texts="精选|日韩|欧美|成人卡通"
+        android:textSize="13sp" android:id="@+id/segment_control_jingxuan"
+        xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#020202"
+                android:id="@+id/lv_jingxuan">
+            </ListView>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lv_hanri">
+            </ListView>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lv_oumei">
+            </ListView>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lv_katong">
+            </ListView>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
